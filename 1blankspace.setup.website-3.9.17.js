@@ -1921,7 +1921,7 @@ ns1blankspace.setup.website =
 												if (ns1blankspace.session.instance.indexOf('lab') != -1)
 												{
 													aHTML.push('<tr><td class="ns1blankspaceSubNote" style="padding-bottom:12px;">' +
-															 		'<strong>You are in lab.</strong><br />So don\'t forget to use the mydigitalstructure-lab.cloud URL!' +
+															 		'<strong>You are in lab.</strong><br />So don\'t forget to use the entityos-lab.cloud URL!' +
 																	'</td></tr>');
 												}
 											}	
@@ -1931,11 +1931,11 @@ ns1blankspace.setup.website =
 														'</td></tr>');
 														
 											aHTML.push('<tr><td style="padding-top:20px;" class="ns1blankspaceAction">' +
-														'CNAME your own url to site.mydigitalstructure.com' +
+														'CNAME your own url to site.entityos.cloud' +
 														'</td></tr>');
 
 											aHTML.push('<tr><td style="padding-top:12px;" class="ns1blankspaceSubNote">' +
-														'<a href="http://mydigitalstructure.com/gettingstarted_dns" target="_blank">More on using your own URL with mydigitalstructure.</a>' +
+														'<a href="https://docs.entityos.cloud/gettingstarted_dns" target="_blank">More on using your own URL with entityOS.</a>' +
 														'</td></tr>');
 										
 											aHTML.push('</table>');					
@@ -2119,8 +2119,8 @@ ns1blankspace.setup.website =
 														{
 															$('#ns1blankspaceSetupWebsiteURLStatusContainer').html(
 																'<div class="alert alert-warning" style="font-size:0.75em;">' +
-																	'To add a URL using 1blankspace.com or mydigitalstructure.cloud you must send a request to ' +
-																	'<a href="mailto:support@mydigitalstructure.com">support@mydigitalstructure.com</a>' +
+																	'To add a URL using 1blankspace.com or entityos.cloud you must send a request to ' +
+																	'<a href="mailto:support@ibcom.biz">support@ibcom.biz</a>' +
 																'</div>');
 
 															ns1blankspace.status.clear();
@@ -2742,14 +2742,14 @@ ns1blankspace.setup.website =
 
 						aHTML.push('<tr>' +
 										'<td class="ns1blankspaceSubNote" style="padding-top:8px; padding-bottom:10px; padding-right:100px;">As part of a single-sign-on (SSO) security architecture, you can set up a SAML based Identity Provider to use as an additional form of user authentication.' +
-										'  In its standard implementation the user <i>logon name</i> has to match the email address of the user at the Indentity Provider - <a href="https://docs.mydigitalstructure.com/gettingstarted_authentication_sso" target="_blank">more on implementing SSO using SAML.</a>' +
+										'  In its standard implementation the user <i>logon name</i> has to match the email address of the user at the Indentity Provider - <a href="https://docs.entityos.cloud/gettingstarted_authentication_sso" target="_blank">more on implementing SSO using SAML.</a>' +
 										'</td>' +
 										'</tr>');
 
 						aHTML.push('<tr>' +
 										'<td class="ns1blankspaceSubNote" style="padding-top:8px; padding-bottom:10px; padding-right:100px;">' +
 											'You can also set up a third party identity provider (via a URL) to authentic a user based on any token, typically JWT, in place of the in-built authentication ' +
-											'- <a href="https://docs.mydigitalstructure.com/gettingstarted_authentication_sso_jwt" target="_blank">more on implementing SSO using third party provider / JWT.</a>' +
+											'- <a href="https://docs.entityos.cloud/gettingstarted_authentication_sso_jwt" target="_blank">more on implementing SSO using third party provider / JWT.</a>' +
 										'</td>' +
 										'</tr>');
 
@@ -3055,7 +3055,7 @@ ns1blankspace.setup.website =
 										
 						aHTML.push('<tr class="ns1blankspace">' +
 										'<td style="padding-top:15px;font-size:0.875em;color:#404040;">' +
-										'Set the header scripts to reference the <a href="http://mydigitalstructure.com/1blankspace" target="_blank">1blankspace namespace</a>.' +
+										'Set the header scripts to reference the <a href="https://docs.entityos.cloud/1blankspace" target="_blank">1blankspace namespace</a>.' +
 										'</td>' +
 										'<td style="width:25px;"></td>' +
 										'<td style="padding-top:15px;font-size:0.875em;color:#404040;">' +

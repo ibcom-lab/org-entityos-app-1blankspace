@@ -1901,11 +1901,11 @@ ns1blankspace.setup.website =
 														'</td></tr>');
 														
 											aHTML.push('<tr><td style="padding-top:20px;" class="ns1blankspaceAction">' +
-														'CNAME your own url to site.mydigitalstructure.com' +
+														'CNAME your own url to site.entityos.cloud' +
 														'</td></tr>');
 
 											aHTML.push('<tr><td style="padding-top:12px;" class="ns1blankspaceSubNote">' +
-														'<a href="http://mydigitalstructure.com/gettingstarted_dns" target="_blank">More on using your own URL with mydigitalstructure.</a>' +
+														'<a href="https://docs.entityos.cloud/gettingstarted_dns" target="_blank">More on using your own URL with entityOS.cloud.</a>' +
 														'</td></tr>');
 										
 											aHTML.push('</table>');					
@@ -2697,7 +2697,7 @@ ns1blankspace.setup.website =
 
 						aHTML.push('<tr>' +
 										'<td class="ns1blankspaceSubNote" style="padding-top:8px; padding-bottom:10px; padding-right:100px;">As part of a single-sign-on (SSO) security architecture, you can set up a SAML based Identity Provider to use as an additional form of user authentication.' +
-										'  In its standard implementation the user <i>logon name</i> has to match the email address of the user at the Indentity Provider - <a href="http://docs.mydigitalstructure.com/gettingstarted_authentication_sso" target="_blank">more on implementing SSO using SAML.</a>' +
+										'  In its standard implementation the user <i>logon name</i> has to match the email address of the user at the Indentity Provider - <a href="http://docs.entityos.cloud/gettingstarted_authentication_sso" target="_blank">more on implementing SSO using SAML.</a>' +
 										'</td>' +
 										'</tr>');
 
@@ -2973,7 +2973,7 @@ ns1blankspace.setup.website =
 										
 						aHTML.push('<tr class="ns1blankspace">' +
 										'<td style="padding-top:15px;font-size:0.875em;color:#404040;">' +
-										'Set the header scripts to reference the <a href="http://mydigitalstructure.com/1blankspace" target="_blank">1blankspace namespace</a>.' +
+										'Set the header scripts to reference the <a href="http://docs.entityos.cloud/1blankspace" target="_blank">1blankspace namespace</a>.' +
 										'</td>' +
 										'<td style="width:25px;"></td>' +
 										'<td style="padding-top:15px;font-size:0.875em;color:#404040;">' +

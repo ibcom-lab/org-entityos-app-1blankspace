@@ -3,7 +3,7 @@
  * Licensed as Attribution-ShareAlike 4.0 International
  * http://creativecommons.org/licenses/by-sa/4.0/
  *
- * http://docs.mydigitalstructure.com/gettingstarted_authentication_sso
+ * http://docs.entityos.cloud/gettingstarted_authentication_sso
  *
  * https://github.com/jch/saml
  * btoa('<?xml version="1.0"?><samlp:AuthnRequest ID="_abc123" IssueInstant="2014-09-17T20:53:21" Version="2.0"></samlp:AuthnRequest>')
